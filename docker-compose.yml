@@ -1,0 +1,72 @@
+name: kz-jobs
+
+x-warehouse-env: &warehouse-env
+  DATABASE_URL: postgresql://${POSTGRES_USER:-warehouse}:${POSTGRES_PASSWORD:-warehouse}@postgres:5432/${POSTGRES_DB:-warehouse}
+  HH_USER_AGENT: ${HH_USER_AGENT:-kz-jobs-pipeline/0.1 (set-your-email@example.com)}
+  HH_APP_TOKEN: ${HH_APP_TOKEN:-}
+  HH_QUERIES: ${HH_QUERIES:-data engineer;дата инженер;data scientist;python developer;java developer;devops}
+  HH_MAX_PAGES: ${HH_MAX_PAGES:-5}
+  REJECT_THRESHOLD_PCT: ${REJECT_THRESHOLD_PCT:-10}
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-warehouse}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-warehouse}
+      POSTGRES_DB: ${POSTGRES_DB:-warehouse}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./docker/initdb:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-warehouse} -d ${POSTGRES_DB:-warehouse}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  flyway:
+    image: flyway/flyway:10
+    command: -connectRetries=10 migrate
+    environment:
+      FLYWAY_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-warehouse}
+      FLYWAY_USER: ${POSTGRES_USER:-warehouse}
+      FLYWAY_PASSWORD: ${POSTGRES_PASSWORD:-warehouse}
+    volumes:
+      - ./migrations:/flyway/sql:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  api:
+    build: .
+    environment:
+      <<: *warehouse-env
+    ports:
+      - "8000:8000"
+    depends_on:
+      flyway:
+        condition: service_completed_successfully
+
+  airflow:
+    build:
+      context: .
+      dockerfile: docker/airflow.Dockerfile
+    environment:
+      <<: *warehouse-env
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${POSTGRES_USER:-warehouse}:${POSTGRES_PASSWORD:-warehouse}@postgres:5432/airflow
+    command: ["bash", "/opt/airflow/entrypoint.sh"]
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags:ro
+      - ./docker/airflow-entrypoint.sh:/opt/airflow/entrypoint.sh:ro
+    depends_on:
+      flyway:
+        condition: service_completed_successfully
+
+volumes:
+  pgdata:

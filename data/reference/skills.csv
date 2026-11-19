@@ -1,0 +1,69 @@
+skill,category,aliases
+Python,language,python|питон
+Java,language,java
+Kotlin,language,kotlin
+Scala,language,scala
+Go,language,=go|golang
+C#,language,c#
+C++,language,c++
+JavaScript,language,javascript|js
+TypeScript,language,typescript
+Rust,language,rust
+PHP,language,php
+R,language,=r
+SQL,language,sql
+Spring,framework,spring|spring boot
+FastAPI,framework,fastapi
+Django,framework,django
+Flask,framework,flask
+PostgreSQL,database,postgresql|postgres|постгрес
+MySQL,database,mysql
+Oracle,database,oracle
+ClickHouse,database,clickhouse
+MongoDB,database,mongodb|mongo
+Redis,database,redis
+Elasticsearch,database,elasticsearch|elk
+Kafka,streaming,kafka
+RabbitMQ,streaming,rabbitmq
+Spark,data-processing,spark|pyspark
+Hadoop,data-processing,hadoop
+Hive,data-processing,hive
+Flink,data-processing,flink
+Airflow,orchestration,airflow
+dbt,data-processing,dbt
+Snowflake,data-platform,snowflake
+BigQuery,data-platform,bigquery
+Databricks,data-platform,databricks
+Delta Lake,data-platform,delta lake
+Iceberg,data-platform,iceberg
+Pandas,data-processing,pandas
+NumPy,data-processing,numpy
+ETL,data-engineering,etl|elt
+Data Warehouse,data-engineering,data warehouse|dwh|хранилище данных
+Power BI,bi,power bi|powerbi
+Tableau,bi,tableau
+Superset,bi,superset
+Metabase,bi,metabase
+Grafana,monitoring,grafana
+Prometheus,monitoring,prometheus
+Docker,devops,docker|podman
+Kubernetes,devops,kubernetes|k8s
+Terraform,devops,terraform
+Ansible,devops,ansible
+Linux,devops,linux
+Git,devops,git
+CI/CD,devops,ci/cd|gitlab ci|github actions|jenkins
+AWS,cloud,aws|amazon web services
+Azure,cloud,azure
+GCP,cloud,gcp|google cloud
+Machine Learning,ml,machine learning|машинное обучение|=ml
+PyTorch,ml,pytorch
+TensorFlow,ml,tensorflow
+scikit-learn,ml,scikit-learn|sklearn
+NLP,ml,nlp
+LLM,ml,llm
+MLflow,ml,mlflow
+REST API,api,rest|restful|rest api
+GraphQL,api,graphql
+gRPC,api,grpc
+Microservices,architecture,microservices|микросервис

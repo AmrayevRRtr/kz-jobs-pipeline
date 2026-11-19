@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rates><generator>sample</generator><title>Sample rates (synthetic)</title><date>17.11.2026</date>
+<item><fullname>ДОЛЛАР США</fullname><title>USD</title><description>500.0</description><quant>1</quant><index>UP</index><change>0.10</change></item>
+<item><fullname>ЕВРО</fullname><title>EUR</title><description>580.0</description><quant>1</quant><index>UP</index><change>0.10</change></item>
+<item><fullname>РОССИЙСКИЙ РУБЛЬ</fullname><title>RUB</title><description>5.5</description><quant>1</quant><index>UP</index><change>0.10</change></item>
+<item><fullname>КИТАЙСКИЙ ЮАНЬ</fullname><title>CNY</title><description>70.0</description><quant>1</quant><index>UP</index><change>0.10</change></item>
+<item><fullname>ЯПОНСКАЯ ИЕНА</fullname><title>JPY</title><description>330.0</description><quant>100</quant><index>UP</index><change>0.10</change></item>
+</rates>

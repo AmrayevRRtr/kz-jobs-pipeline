@@ -1,0 +1,4037 @@
+[
+ {
+  "id": "5000000",
+  "name": "Java Developer",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9007",
+   "name": "Baiterek Digital"
+  },
+  "published_at": "2026-11-10T08:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000000",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "FastAPI"
+   },
+   {
+    "name": "Python"
+   },
+   {
+    "name": "Spring"
+   },
+   {
+    "name": "Microservices"
+   },
+   {
+    "name": "PostgreSQL"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: FastAPI, Python, Spring, Microservices, PostgreSQL.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1054550,
+   "to": null,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000001",
+  "name": "Java Developer",
+  "area": {
+   "id": "160",
+   "name": "Шымкент"
+  },
+  "employer": {
+   "id": "9003",
+   "name": "Tengri Soft"
+  },
+  "published_at": "2026-11-12T15:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000001",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Python"
+   },
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "PostgreSQL"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Python, Kafka, Docker, PostgreSQL.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1404495,
+   "to": 1825843,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000002",
+  "name": "Senior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9001",
+   "name": "Steppe Analytics"
+  },
+  "published_at": "2026-11-16T16:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000002",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "Spark"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "Python"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: SQL, Docker, Kafka, PostgreSQL, Spark, Linux, Python.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000003",
+  "name": "Backend Developer (Java)",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9012",
+   "name": "Ulytau Mobile"
+  },
+  "published_at": "2026-11-10T14:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000003",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Redis"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Python"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Microservices"
+   },
+   {
+    "name": "Spring"
+   },
+   {
+    "name": "Kafka"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Redis, Docker, Python, Git, Microservices, Spring, Kafka.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1469400,
+   "to": 1910220,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000004",
+  "name": "Data Analyst",
+  "area": {
+   "id": "160",
+   "name": "Шымкент"
+  },
+  "employer": {
+   "id": "9004",
+   "name": "Caspian Systems"
+  },
+  "published_at": "2026-11-14T08:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000004",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "scikit-learn"
+   },
+   {
+    "name": "Tableau"
+   },
+   {
+    "name": "Pandas"
+   },
+   {
+    "name": "Python"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: scikit-learn, Tableau, Pandas, Python.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1762,
+   "to": 2290,
+   "currency": "USD",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000005",
+  "name": "Java Developer",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9002",
+   "name": "Altyn Data Labs"
+  },
+  "published_at": "2026-11-12T16:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000005",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "FastAPI"
+   },
+   {
+    "name": "Spring"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "REST API"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Git, Kafka, Docker, FastAPI, Spring, PostgreSQL, REST API.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000006",
+  "name": "Senior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9011",
+   "name": "Irtysh Logistics"
+  },
+  "published_at": "2026-11-15T17:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000006",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "ClickHouse"
+   },
+   {
+    "name": "ETL"
+   },
+   {
+    "name": "dbt"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "Python"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: ClickHouse, ETL, dbt, Docker, Kafka, Linux, Python.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000007",
+  "name": "Backend Developer (Java)",
+  "area": {
+   "id": "160",
+   "name": "Шымкент"
+  },
+  "employer": {
+   "id": "9002",
+   "name": "Altyn Data Labs"
+  },
+  "published_at": "2026-11-14T09:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000007",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Python"
+   },
+   {
+    "name": "REST API"
+   },
+   {
+    "name": "Java"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Spring"
+   },
+   {
+    "name": "Kafka"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Python, REST API, Java, PostgreSQL, Git, Spring, Kafka.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 501200,
+   "to": 651560,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000008",
+  "name": "Java Developer",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9008",
+   "name": "Alatau Software"
+  },
+  "published_at": "2026-11-09T09:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000008",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "FastAPI"
+   },
+   {
+    "name": "Java"
+   },
+   {
+    "name": "Redis"
+   },
+   {
+    "name": "Spring"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Docker"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: FastAPI, Java, Redis, Spring, Git, Docker.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000009",
+  "name": "SRE",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9011",
+   "name": "Irtysh Logistics"
+  },
+  "published_at": "2026-11-11T12:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000009",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "CI/CD"
+   },
+   {
+    "name": "Ansible"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "AWS"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: CI/CD, Ansible, Linux, Git, AWS.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1309000,
+   "to": 1701700,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000010",
+  "name": "Senior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9002",
+   "name": "Altyn Data Labs"
+  },
+  "published_at": "2026-11-12T08:00:00+0500",
+  "archived": true,
+  "alternate_url": "https://hh.kz/vacancy/5000010",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Spark"
+   },
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "Python"
+   },
+   {
+    "name": "PostgreSQL"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Spark, SQL, Python, PostgreSQL.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1375200,
+   "to": 1787760,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000011",
+  "name": "SRE",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9007",
+   "name": "Baiterek Digital"
+  },
+  "published_at": "2026-11-12T15:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000011",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Kubernetes"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Prometheus"
+   },
+   {
+    "name": "Terraform"
+   },
+   {
+    "name": "Ansible"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Kubernetes, Git, Prometheus, Terraform, Ansible.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 829200,
+   "to": 1077960,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000012",
+  "name": "Cloud Engineer",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9008",
+   "name": "Alatau Software"
+  },
+  "published_at": "2026-11-16T10:00:00+0500",
+  "archived": true,
+  "alternate_url": "https://hh.kz/vacancy/5000012",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "Ansible"
+   },
+   {
+    "name": "Prometheus"
+   },
+   {
+    "name": "Docker"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Linux, Grafana, Ansible, Prometheus, Docker.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000013",
+  "name": "SRE",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9007",
+   "name": "Baiterek Digital"
+  },
+  "published_at": "2026-11-12T10:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000013",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "Ansible"
+   },
+   {
+    "name": "Prometheus"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Kubernetes"
+   },
+   {
+    "name": "CI/CD"
+   },
+   {
+    "name": "Git"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Grafana, Ansible, Prometheus, Docker, Kubernetes, CI/CD, Git.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1620600,
+   "to": 2106780,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000014",
+  "name": "Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9009",
+   "name": "Kokzhiek Retail"
+  },
+  "published_at": "2026-11-12T08:00:00+0500",
+  "archived": true,
+  "alternate_url": "https://hh.kz/vacancy/5000014",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Python"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "ETL"
+   },
+   {
+    "name": "dbt"
+   },
+   {
+    "name": "Airflow"
+   },
+   {
+    "name": "Linux"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Python, Git, ETL, dbt, Airflow, Linux.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 575700,
+   "to": null,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000015",
+  "name": "Senior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Шымкент"
+  },
+  "employer": {
+   "id": "9011",
+   "name": "Irtysh Logistics"
+  },
+  "published_at": "2026-11-09T17:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000015",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "ETL"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "Airflow"
+   },
+   {
+    "name": "SQL"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Linux, ETL, Git, Docker, PostgreSQL, Airflow, SQL.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 764600,
+   "to": 993980,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000016",
+  "name": "Junior Data Engineer (remote)",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9003",
+   "name": "Tengri Soft"
+  },
+  "published_at": "2026-11-09T15:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000016",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Spark"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Kafka"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Docker, Spark, Git, Kafka.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1019600,
+   "to": null,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000017",
+  "name": "Junior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9005",
+   "name": "Nomad Cloud"
+  },
+  "published_at": "2026-11-13T18:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000017",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Airflow"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Kafka, SQL, Linux, Docker, Airflow.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 726800,
+   "to": 944840,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000018",
+  "name": "Cloud Engineer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9003",
+   "name": "Tengri Soft"
+  },
+  "published_at": "2026-11-09T09:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000018",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "AWS"
+   },
+   {
+    "name": "Prometheus"
+   },
+   {
+    "name": "Kubernetes"
+   },
+   {
+    "name": "Terraform"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Docker, Git, AWS, Prometheus, Kubernetes, Terraform.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 912600,
+   "to": 1186380,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000019",
+  "name": "Data Scientist",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9006",
+   "name": "Silk Road Tech"
+  },
+  "published_at": "2026-11-11T14:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000019",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "PyTorch"
+   },
+   {
+    "name": "scikit-learn"
+   },
+   {
+    "name": "Tableau"
+   },
+   {
+    "name": "Python"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: PyTorch, scikit-learn, Tableau, Python.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 826100,
+   "to": null,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000020",
+  "name": "Data Analyst",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9003",
+   "name": "Tengri Soft"
+  },
+  "published_at": "2026-11-12T10:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000020",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Python"
+   },
+   {
+    "name": "Pandas"
+   },
+   {
+    "name": "scikit-learn"
+   },
+   {
+    "name": "Power BI"
+   },
+   {
+    "name": "Machine Learning"
+   },
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "PyTorch"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Python, Pandas, scikit-learn, Power BI, Machine Learning, SQL, PyTorch.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000021",
+  "name": "SRE",
+  "area": {
+   "id": "160",
+   "name": "Шымкент"
+  },
+  "employer": {
+   "id": "9007",
+   "name": "Baiterek Digital"
+  },
+  "published_at": "2026-11-12T11:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000021",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "Ansible"
+   },
+   {
+    "name": "CI/CD"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "AWS"
+   },
+   {
+    "name": "Kubernetes"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Linux, Ansible, CI/CD, Docker, AWS, Kubernetes.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1294500,
+   "to": null,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000022",
+  "name": "Python Developer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9012",
+   "name": "Ulytau Mobile"
+  },
+  "published_at": "2026-11-13T10:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000022",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Spring"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "Docker"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Spring, Git, Kafka, Docker.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1034200,
+   "to": 1344460,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000023",
+  "name": "Data Scientist",
+  "area": {
+   "id": "160",
+   "name": "Шымкент"
+  },
+  "employer": {
+   "id": "9011",
+   "name": "Irtysh Logistics"
+  },
+  "published_at": "2026-11-09T16:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000023",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Tableau"
+   },
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "scikit-learn"
+   },
+   {
+    "name": "Pandas"
+   },
+   {
+    "name": "PyTorch"
+   },
+   {
+    "name": "Git"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Tableau, SQL, scikit-learn, Pandas, PyTorch, Git.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1131100,
+   "to": 1470430,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000024",
+  "name": "SRE",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9005",
+   "name": "Nomad Cloud"
+  },
+  "published_at": "2026-11-12T14:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000024",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "Prometheus"
+   },
+   {
+    "name": "CI/CD"
+   },
+   {
+    "name": "Docker"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Git, Linux, Prometheus, CI/CD, Docker.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1048200,
+   "to": 1362660,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000025",
+  "name": "Java Developer",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9003",
+   "name": "Tengri Soft"
+  },
+  "published_at": "2026-11-10T12:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000025",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "FastAPI"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "Redis"
+   },
+   {
+    "name": "Microservices"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: FastAPI, PostgreSQL, Redis, Microservices.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1455100,
+   "to": 1891630,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000026",
+  "name": "DevOps Engineer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9004",
+   "name": "Caspian Systems"
+  },
+  "published_at": "2026-11-15T15:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000026",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Terraform"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Kubernetes"
+   },
+   {
+    "name": "Prometheus"
+   },
+   {
+    "name": "Ansible"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Terraform, Docker, Kubernetes, Prometheus, Ansible.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000027",
+  "name": "Data Scientist",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9008",
+   "name": "Alatau Software"
+  },
+  "published_at": "2026-11-10T15:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000027",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Git"
+   },
+   {
+    "name": "scikit-learn"
+   },
+   {
+    "name": "Tableau"
+   },
+   {
+    "name": "Machine Learning"
+   },
+   {
+    "name": "PyTorch"
+   },
+   {
+    "name": "Power BI"
+   },
+   {
+    "name": "Pandas"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Git, scikit-learn, Tableau, Machine Learning, PyTorch, Power BI, Pandas.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000028",
+  "name": "SRE",
+  "area": {
+   "id": "160",
+   "name": "Шымкент"
+  },
+  "employer": {
+   "id": "9004",
+   "name": "Caspian Systems"
+  },
+  "published_at": "2026-11-13T16:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000028",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "Kubernetes"
+   },
+   {
+    "name": "AWS"
+   },
+   {
+    "name": "Terraform"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Linux, Grafana, Kubernetes, AWS, Terraform.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 920500,
+   "to": null,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000029",
+  "name": "Python Developer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9010",
+   "name": "Zhetysu Fintech"
+  },
+  "published_at": "2026-11-15T14:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000029",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "Java"
+   },
+   {
+    "name": "FastAPI"
+   },
+   {
+    "name": "Redis"
+   },
+   {
+    "name": "Microservices"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "Git"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Kafka, Java, FastAPI, Redis, Microservices, PostgreSQL, Git.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1378800,
+   "to": 1792440,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000030",
+  "name": "Java Developer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9012",
+   "name": "Ulytau Mobile"
+  },
+  "published_at": "2026-11-16T11:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000030",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "REST API"
+   },
+   {
+    "name": "Java"
+   },
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Redis"
+   },
+   {
+    "name": "Microservices"
+   },
+   {
+    "name": "FastAPI"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: REST API, Java, Kafka, Docker, Redis, Microservices, FastAPI.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000031",
+  "name": "DevOps Engineer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9006",
+   "name": "Silk Road Tech"
+  },
+  "published_at": "2026-11-09T09:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000031",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "Terraform"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "CI/CD"
+   },
+   {
+    "name": "Ansible"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Grafana, Terraform, Docker, CI/CD, Ansible.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000032",
+  "name": "DevOps Engineer",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9006",
+   "name": "Silk Road Tech"
+  },
+  "published_at": "2026-11-15T12:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000032",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Kubernetes"
+   },
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "AWS"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "CI/CD"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Kubernetes, Grafana, Docker, AWS, Linux, CI/CD.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000033",
+  "name": "Senior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Шымкент"
+  },
+  "employer": {
+   "id": "9008",
+   "name": "Alatau Software"
+  },
+  "published_at": "2026-11-12T11:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000033",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Spark"
+   },
+   {
+    "name": "Airflow"
+   },
+   {
+    "name": "dbt"
+   },
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "Git"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Spark, Airflow, dbt, SQL, Git.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 2407,
+   "to": 3129,
+   "currency": "USD",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000034",
+  "name": "Senior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9010",
+   "name": "Zhetysu Fintech"
+  },
+  "published_at": "2026-11-13T09:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000034",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "ETL"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "ClickHouse"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Spark"
+   },
+   {
+    "name": "Python"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: ETL, Linux, ClickHouse, Git, Spark, Python.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000035",
+  "name": "Junior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9007",
+   "name": "Baiterek Digital"
+  },
+  "published_at": "2026-11-10T17:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000035",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "ClickHouse"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "ETL"
+   },
+   {
+    "name": "Python"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Docker, ClickHouse, PostgreSQL, SQL, ETL, Python.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1191700,
+   "to": 1549210,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000036",
+  "name": "DevOps Engineer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9008",
+   "name": "Alatau Software"
+  },
+  "published_at": "2026-11-13T17:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000036",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Prometheus"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "AWS"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Kubernetes"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Terraform"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Prometheus, Linux, AWS, Git, Kubernetes, Docker, Terraform.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1281600,
+   "to": 1666080,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000037",
+  "name": "Java Developer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9002",
+   "name": "Altyn Data Labs"
+  },
+  "published_at": "2026-11-14T12:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000037",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Git"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "Microservices"
+   },
+   {
+    "name": "Java"
+   },
+   {
+    "name": "Redis"
+   },
+   {
+    "name": "Spring"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Git, PostgreSQL, Microservices, Java, Redis, Spring.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1529300,
+   "to": 1988090,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000038",
+  "name": "ML Engineer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9009",
+   "name": "Kokzhiek Retail"
+  },
+  "published_at": "2026-11-10T12:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000038",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Machine Learning"
+   },
+   {
+    "name": "PyTorch"
+   },
+   {
+    "name": "scikit-learn"
+   },
+   {
+    "name": "Power BI"
+   },
+   {
+    "name": "Pandas"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Tableau"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Machine Learning, PyTorch, scikit-learn, Power BI, Pandas, Git, Tableau.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 721500,
+   "to": 937950,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000039",
+  "name": "Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Шымкент"
+  },
+  "employer": {
+   "id": "9002",
+   "name": "Altyn Data Labs"
+  },
+  "published_at": "2026-11-12T13:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000039",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Spark"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "dbt"
+   },
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "Docker"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Spark, Git, dbt, Kafka, Docker.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1010100,
+   "to": 1313130,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000040",
+  "name": "Python Developer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9005",
+   "name": "Nomad Cloud"
+  },
+  "published_at": "2026-11-09T16:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000040",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Redis"
+   },
+   {
+    "name": "REST API"
+   },
+   {
+    "name": "Spring"
+   },
+   {
+    "name": "Java"
+   },
+   {
+    "name": "PostgreSQL"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Redis, REST API, Spring, Java, PostgreSQL.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1501900,
+   "to": 1952470,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000041",
+  "name": "Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9002",
+   "name": "Altyn Data Labs"
+  },
+  "published_at": "2026-11-15T15:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000041",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Airflow"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "ETL"
+   },
+   {
+    "name": "Kafka"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Airflow, Git, ETL, Kafka.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 686600,
+   "to": null,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000042",
+  "name": "Backend Developer (Java)",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9005",
+   "name": "Nomad Cloud"
+  },
+  "published_at": "2026-11-16T15:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000042",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Java"
+   },
+   {
+    "name": "Spring"
+   },
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "REST API"
+   },
+   {
+    "name": "Docker"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: PostgreSQL, Git, Java, Spring, Kafka, REST API, Docker.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 505600,
+   "to": 657280,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000043",
+  "name": "Data Analyst",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9011",
+   "name": "Irtysh Logistics"
+  },
+  "published_at": "2026-11-13T08:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000043",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "PyTorch"
+   },
+   {
+    "name": "Power BI"
+   },
+   {
+    "name": "Python"
+   },
+   {
+    "name": "scikit-learn"
+   },
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "Pandas"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: PyTorch, Power BI, Python, scikit-learn, SQL, Pandas.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 678500,
+   "to": null,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000044",
+  "name": "Backend Developer (Java)",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9005",
+   "name": "Nomad Cloud"
+  },
+  "published_at": "2026-11-09T10:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000044",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "REST API"
+   },
+   {
+    "name": "Spring"
+   },
+   {
+    "name": "Redis"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "FastAPI"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: REST API, Spring, Redis, PostgreSQL, Docker, FastAPI.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 2352,
+   "to": 3057,
+   "currency": "USD",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000045",
+  "name": "Senior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9003",
+   "name": "Tengri Soft"
+  },
+  "published_at": "2026-11-10T11:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000045",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "ETL"
+   },
+   {
+    "name": "Python"
+   },
+   {
+    "name": "Airflow"
+   },
+   {
+    "name": "dbt"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Git"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: ETL, Python, Airflow, dbt, Docker, Git.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000046",
+  "name": "Cloud Engineer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9005",
+   "name": "Nomad Cloud"
+  },
+  "published_at": "2026-11-16T13:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000046",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "AWS"
+   },
+   {
+    "name": "Kubernetes"
+   },
+   {
+    "name": "Terraform"
+   },
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "Ansible"
+   },
+   {
+    "name": "Git"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: AWS, Kubernetes, Terraform, Grafana, Ansible, Git.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1278000,
+   "to": 1661400,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000047",
+  "name": "SRE",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9004",
+   "name": "Caspian Systems"
+  },
+  "published_at": "2026-11-09T18:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000047",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Ansible"
+   },
+   {
+    "name": "AWS"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "CI/CD"
+   },
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "Git"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Docker, Ansible, AWS, Linux, CI/CD, Grafana, Git.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000048",
+  "name": "Junior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9009",
+   "name": "Kokzhiek Retail"
+  },
+  "published_at": "2026-11-16T09:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000048",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Airflow"
+   },
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Python"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Git, Airflow, Kafka, Docker, Python.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1322600,
+   "to": 1719380,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000049",
+  "name": "SRE",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9002",
+   "name": "Altyn Data Labs"
+  },
+  "published_at": "2026-11-13T14:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000049",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Ansible"
+   },
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "Terraform"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Kubernetes"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "AWS"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Ansible, Grafana, Terraform, Git, Kubernetes, Linux, AWS.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000050",
+  "name": "Cloud Engineer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9009",
+   "name": "Kokzhiek Retail"
+  },
+  "published_at": "2026-11-13T12:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000050",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "CI/CD"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Terraform"
+   },
+   {
+    "name": "Prometheus"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Grafana, CI/CD, Git, Terraform, Prometheus.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000051",
+  "name": "SRE",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9012",
+   "name": "Ulytau Mobile"
+  },
+  "published_at": "2026-11-12T17:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000051",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Prometheus"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "AWS"
+   },
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "Ansible"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Prometheus, Docker, AWS, Grafana, Ansible.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1653400,
+   "to": null,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000052",
+  "name": "Senior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9006",
+   "name": "Silk Road Tech"
+  },
+  "published_at": "2026-11-10T15:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000052",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Python"
+   },
+   {
+    "name": "Airflow"
+   },
+   {
+    "name": "ClickHouse"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "Spark"
+   },
+   {
+    "name": "Docker"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Python, Airflow, ClickHouse, Linux, SQL, Spark, Docker.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000053",
+  "name": "SRE",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9011",
+   "name": "Irtysh Logistics"
+  },
+  "published_at": "2026-11-15T13:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000053",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Kubernetes"
+   },
+   {
+    "name": "Ansible"
+   },
+   {
+    "name": "AWS"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Git, Kubernetes, Ansible, AWS.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 810800,
+   "to": 1054040,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000054",
+  "name": "Java Developer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9003",
+   "name": "Tengri Soft"
+  },
+  "published_at": "2026-11-09T08:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000054",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Kafka"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: PostgreSQL, Docker, Git, Kafka.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1302300,
+   "to": 1692990,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000055",
+  "name": "ML Engineer",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9008",
+   "name": "Alatau Software"
+  },
+  "published_at": "2026-11-16T17:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000055",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Power BI"
+   },
+   {
+    "name": "PyTorch"
+   },
+   {
+    "name": "Machine Learning"
+   },
+   {
+    "name": "Pandas"
+   },
+   {
+    "name": "Python"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Power BI, PyTorch, Machine Learning, Pandas, Python.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000056",
+  "name": "SRE",
+  "area": {
+   "id": "160",
+   "name": "Шымкент"
+  },
+  "employer": {
+   "id": "9004",
+   "name": "Caspian Systems"
+  },
+  "published_at": "2026-11-13T18:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000056",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "Ansible"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Prometheus"
+   },
+   {
+    "name": "Docker"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Grafana, Linux, Ansible, Git, Prometheus, Docker.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000057",
+  "name": "SRE",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9010",
+   "name": "Zhetysu Fintech"
+  },
+  "published_at": "2026-11-13T08:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000057",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Docker"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "Prometheus"
+   },
+   {
+    "name": "Terraform"
+   },
+   {
+    "name": "Kubernetes"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Docker, Git, Grafana, Prometheus, Terraform, Kubernetes.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 886800,
+   "to": 1152840,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000058",
+  "name": "Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9007",
+   "name": "Baiterek Digital"
+  },
+  "published_at": "2026-11-13T15:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000058",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Airflow"
+   },
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "dbt"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Git, Airflow, SQL, Kafka, PostgreSQL, dbt.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 2642,
+   "to": 3434,
+   "currency": "USD",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000059",
+  "name": "Junior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9001",
+   "name": "Steppe Analytics"
+  },
+  "published_at": "2026-11-13T13:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000059",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "Airflow"
+   },
+   {
+    "name": "Spark"
+   },
+   {
+    "name": "ClickHouse"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "Python"
+   },
+   {
+    "name": "ETL"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: SQL, Airflow, Spark, ClickHouse, PostgreSQL, Python, ETL.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1063000,
+   "to": 1381900,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000100",
+  "name": "Data Analyst",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9005",
+   "name": "Nomad Cloud"
+  },
+  "published_at": "2026-11-16T18:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000100",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Python"
+   },
+   {
+    "name": "scikit-learn"
+   },
+   {
+    "name": "PyTorch"
+   },
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "Git"
+   },
+   {
+    "name": "Machine Learning"
+   },
+   {
+    "name": "Pandas"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Python, scikit-learn, PyTorch, SQL, Git, Machine Learning, Pandas.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 916600,
+   "to": 1191580,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000101",
+  "name": "Cloud Engineer",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9008",
+   "name": "Alatau Software"
+  },
+  "published_at": "2026-11-16T14:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000101",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "CI/CD"
+   },
+   {
+    "name": "Prometheus"
+   },
+   {
+    "name": "Terraform"
+   },
+   {
+    "name": "Ansible"
+   },
+   {
+    "name": "AWS"
+   },
+   {
+    "name": "Docker"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: CI/CD, Prometheus, Terraform, Ansible, AWS, Docker.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 1532600,
+   "to": null,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000102",
+  "name": "Backend Developer (Java)",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9002",
+   "name": "Altyn Data Labs"
+  },
+  "published_at": "2026-11-16T18:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000102",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Backend-разработчик"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 3 до 6 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Java"
+   },
+   {
+    "name": "Kafka"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "FastAPI"
+   },
+   {
+    "name": "Redis"
+   },
+   {
+    "name": "REST API"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Java, Kafka, PostgreSQL, FastAPI, Redis, REST API.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 764100,
+   "to": null,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000103",
+  "name": "ML Engineer",
+  "area": {
+   "id": "160",
+   "name": "Астана"
+  },
+  "employer": {
+   "id": "9001",
+   "name": "Steppe Analytics"
+  },
+  "published_at": "2026-11-16T16:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000103",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Machine Learning"
+   },
+   {
+    "name": "scikit-learn"
+   },
+   {
+    "name": "Tableau"
+   },
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "PyTorch"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Machine Learning, scikit-learn, Tableau, SQL, PyTorch.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ },
+ {
+  "id": "5000104",
+  "name": "Junior Data Engineer",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9003",
+   "name": "Tengri Soft"
+  },
+  "published_at": "2026-11-16T18:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000104",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Дата-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "Нет опыта"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Python"
+   },
+   {
+    "name": "PostgreSQL"
+   },
+   {
+    "name": "Spark"
+   },
+   {
+    "name": "Linux"
+   },
+   {
+    "name": "Git"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Python, PostgreSQL, Spark, Linux, Git.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 949400,
+   "to": 1234220,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5000105",
+  "name": "Data Scientist",
+  "area": {
+   "id": "160",
+   "name": "Караганда"
+  },
+  "employer": {
+   "id": "9001",
+   "name": "Steppe Analytics"
+  },
+  "published_at": "2026-11-16T15:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000105",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Git"
+   },
+   {
+    "name": "PyTorch"
+   },
+   {
+    "name": "Machine Learning"
+   },
+   {
+    "name": "scikit-learn"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Git, PyTorch, Machine Learning, scikit-learn.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 865100,
+   "to": 1124630,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000106",
+  "name": "Data Analyst",
+  "area": {
+   "id": "160",
+   "name": "Шымкент"
+  },
+  "employer": {
+   "id": "9010",
+   "name": "Zhetysu Fintech"
+  },
+  "published_at": "2026-11-17T17:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000106",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Pandas"
+   },
+   {
+    "name": "PyTorch"
+   },
+   {
+    "name": "Power BI"
+   },
+   {
+    "name": "scikit-learn"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Pandas, PyTorch, Power BI, scikit-learn.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 504000,
+   "to": null,
+   "currency": "KZT",
+   "gross": true
+  }
+ },
+ {
+  "id": "5000107",
+  "name": "DevOps Engineer",
+  "area": {
+   "id": "160",
+   "name": "Шымкент"
+  },
+  "employer": {
+   "id": "9012",
+   "name": "Ulytau Mobile"
+  },
+  "published_at": "2026-11-16T14:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000107",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "DevOps-инженер"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Удалённая работа"
+  },
+  "key_skills": [
+   {
+    "name": "Prometheus"
+   },
+   {
+    "name": "AWS"
+   },
+   {
+    "name": "Grafana"
+   },
+   {
+    "name": "Ansible"
+   },
+   {
+    "name": "Git"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Prometheus, AWS, Grafana, Ansible, Git.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": {
+   "from": 920100,
+   "to": 1196130,
+   "currency": "KZT",
+   "gross": false
+  }
+ },
+ {
+  "id": "5009101",
+  "name": "  ",
+  "area": {
+   "id": "160",
+   "name": "Алматы"
+  },
+  "employer": {
+   "id": "9003",
+   "name": "Tengri Soft"
+  },
+  "published_at": "2026-11-12T10:00:00+0500",
+  "archived": false,
+  "alternate_url": "https://hh.kz/vacancy/5000020",
+  "professional_roles": [
+   {
+    "id": "0",
+    "name": "Аналитик данных"
+   }
+  ],
+  "experience": {
+   "id": "x",
+   "name": "От 1 года до 3 лет"
+  },
+  "employment": {
+   "id": "full",
+   "name": "Полная занятость"
+  },
+  "schedule": {
+   "id": "fullDay",
+   "name": "Полный день"
+  },
+  "key_skills": [
+   {
+    "name": "Python"
+   },
+   {
+    "name": "Pandas"
+   },
+   {
+    "name": "scikit-learn"
+   },
+   {
+    "name": "Power BI"
+   },
+   {
+    "name": "Machine Learning"
+   },
+   {
+    "name": "SQL"
+   },
+   {
+    "name": "PyTorch"
+   }
+  ],
+  "description": "<p>Ищем специалиста. Стек: Python, Pandas, scikit-learn, Power BI, Machine Learning, SQL, PyTorch.</p><ul><li>Командная работа</li></ul>",
+  "_source": "detail",
+  "salary": null
+ }
+]
