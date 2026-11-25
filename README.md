@@ -172,6 +172,8 @@ Monthly salary in KZT (midpoint of the range), roles with at least 5 stated sala
 
 Read these as a snapshot, not a trend. Only active postings are returned, so earlier weeks are undercounted, and the weekly series becomes meaningful as the daily DAG accumulates history. Samples per role are small, hh files data engineers mostly under the data scientist role, and `Python` and `Java` shares are partly shaped by the search queries.
 
+The second run came from the Airflow DAG with a 2-day window: 114 records extracted, 0 new versions, 114 unchanged. Re-running over data that has not changed writes nothing, so history grows only when a vacancy actually changes. Daily runs show a lower skills coverage (60.5%) because the full page with `key_skills` is fetched only for vacancies not seen before, while known ones keep the skills already stored.
+
 ## Example results (demo data)
 
 Pipeline report for the two demo runs (stored in `ops.pipeline_run.stats`, exposed at `GET /quality/runs`):
