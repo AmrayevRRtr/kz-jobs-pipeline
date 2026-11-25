@@ -9,9 +9,12 @@ from pathlib import Path
 DEFAULT_QUERIES = (
     "data engineer",
     "дата инженер",
+    "инженер данных",
     "data scientist",
-    "python developer",
-    "java developer",
+    "machine learning",
+    "аналитик данных",
+    "python",
+    "java",
     "devops",
 )
 
@@ -35,12 +38,14 @@ class Settings:
     hh_queries: tuple[str, ...] = DEFAULT_QUERIES
     hh_period_days: int = 1
     hh_max_pages: int = 5
+    hh_search_field: str = ""
     hh_fetch_details: bool = True
     hh_request_delay: float = 0.3
 
     nbk_rates_url: str = "https://nationalbank.kz/rss/get_rates.cfm"
 
     skills_csv: Path = REPO_ROOT / "data" / "reference" / "skills.csv"
+    roles_csv: Path = REPO_ROOT / "data" / "reference" / "it_roles.csv"
     reject_threshold_pct: float = 10.0
 
     @classmethod
@@ -58,9 +63,11 @@ class Settings:
             else DEFAULT_QUERIES,
             hh_period_days=int(env.get("HH_PERIOD_DAYS", cls.hh_period_days)),
             hh_max_pages=int(env.get("HH_MAX_PAGES", cls.hh_max_pages)),
+            hh_search_field=env.get("HH_SEARCH_FIELD", cls.hh_search_field),
             hh_fetch_details=_bool(env.get("HH_FETCH_DETAILS"), cls.hh_fetch_details),
             hh_request_delay=float(env.get("HH_REQUEST_DELAY", cls.hh_request_delay)),
             nbk_rates_url=env.get("NBK_RATES_URL", cls.nbk_rates_url),
             skills_csv=Path(env.get("SKILLS_CSV", str(cls.skills_csv))),
+            roles_csv=Path(env.get("ROLES_CSV", str(cls.roles_csv))),
             reject_threshold_pct=float(env.get("REJECT_THRESHOLD_PCT", cls.reject_threshold_pct)),
         )

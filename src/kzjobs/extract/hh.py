@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import csv
 import logging
 import time
 from collections.abc import Callable, Iterator
@@ -19,6 +20,15 @@ class HHError(RuntimeError):
     pass
 
 
+def load_roles(path) -> frozenset[str]:
+    """IT professional roles to keep; an empty set (missing file) disables the filter."""
+    try:
+        with open(path, encoding="utf-8", newline="") as fh:
+            return frozenset(r["role"].strip().lower() for r in csv.DictReader(fh) if r["role"])
+    except FileNotFoundError:
+        return frozenset()
+
+
 class HHClient:
     def __init__(
         self,
@@ -31,6 +41,7 @@ class HHClient:
             headers["Authorization"] = f"Bearer {settings.hh_app_token}"
         self._settings = settings
         self._sleep = sleep
+        self._roles = load_roles(settings.roles_csv)
         self._client = httpx.Client(
             base_url=settings.hh_base_url, headers=headers, timeout=30.0, transport=transport
         )
@@ -68,6 +79,7 @@ class HHClient:
                     "text": text,
                     "area": s.hh_area,
                     "period": s.hh_period_days,
+                    **({"search_field": s.hh_search_field} if s.hh_search_field else {}),
                     "per_page": 100,
                     "page": page,
                     "order_by": "publication_time",
@@ -79,6 +91,10 @@ class HHClient:
                 break
             self._sleep(s.hh_request_delay)
 
+    def _is_it_role(self, item: dict) -> bool:
+        names = {r.get("name", "").lower() for r in item.get("professional_roles") or []}
+        return not self._roles or not names or bool(names & self._roles)
+
     def detail(self, vacancy_id: int | str) -> dict:
         return self._get(f"/vacancies/{vacancy_id}")
 
@@ -88,7 +104,8 @@ class HHClient:
         found: dict[int, dict] = {}
         for query in self._settings.hh_queries:
             for item in self.search(query):
-                found.setdefault(int(item["id"]), item)
+                if self._is_it_role(item):
+                    found.setdefault(int(item["id"]), item)
             self._sleep(self._settings.hh_request_delay)
 
         payloads: list[dict] = []

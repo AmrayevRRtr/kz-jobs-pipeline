@@ -74,3 +74,19 @@ def test_compute_hash_is_deterministic():
 def test_skills_come_from_key_skills_and_description():
     row = normalize_vacancy(make_payload(skills=("Airflow", "Kafka")), M, RATES)
     assert {"Airflow", "Kafka"} <= set(row["skills"])
+
+
+def test_salary_range_field_is_used_and_non_monthly_is_ignored():
+    payload = make_payload()
+    payload["salary_range"] = {
+        "from": 300000,
+        "to": 500000,
+        "currency": "KZT",
+        "gross": False,
+        "mode": {"id": "MONTH"},
+    }
+    row = normalize_vacancy(payload, M, RATES)
+    assert row["salary_from"] == Decimal(300000) and row["salary_to_kzt"] == Decimal("500000.00")
+
+    payload["salary_range"]["mode"] = {"id": "HOUR"}
+    assert normalize_vacancy(payload, M, RATES)["salary_from"] is None

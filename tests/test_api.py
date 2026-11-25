@@ -82,7 +82,10 @@ def test_limit_is_validated(client):
 def test_skill_trends_and_salaries(client):
     trends = client.get("/skills/trends").json()
     assert "Python" in trends["series"]
-    assert client.get("/salaries/summary").json()[0]["role_name"] == "Дата-инженер"
+    assert (
+        client.get("/salaries/summary", params={"min_vacancies": 1}).json()[0]["role_name"]
+        == "Дата-инженер"
+    )
 
 
 def test_quality_runs_expose_the_report(client):

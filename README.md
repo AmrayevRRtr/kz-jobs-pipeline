@@ -11,7 +11,7 @@ The goal of the project is to show the whole data engineering loop in one small,
 | **Processing** | Python 3.11+ (httpx, psycopg 3), SQL for the merge logic and marts |
 | **Orchestration** | Apache Airflow (daily DAG) |
 | **Serving** | FastAPI with OpenAPI docs |
-| **Quality** | pytest (47 tests, integration tests on real PostgreSQL), ruff, GitHub Actions |
+| **Quality** | pytest (50 tests, integration tests on real PostgreSQL), ruff, GitHub Actions |
 | **Packaging** | Docker Compose: one command starts the whole stack |
 
 ## Architecture
@@ -90,6 +90,8 @@ erDiagram
 
 **Safe XML parsing.** NBK XML is parsed with `defusedxml`, which blocks entity expansion attacks. A test covers it.
 
+**Relevance filter.** hh text search matches a word anywhere in a posting, so a query like `python` also returns teachers and marketers who mention it. Search results are filtered by hh professional role against `data/reference/it_roles.csv` before any details are fetched. Searching titles only (`HH_SEARCH_FIELD=name`) is also supported but returns far fewer vacancies in Kazakhstan.
+
 **Skill extraction by dictionary.** `data/reference/skills.csv` maps canonical skills to aliases (`Postgres` and `постгрес` become `PostgreSQL`). Ambiguous short tokens (`go`, `r`) are marked exact-only and match only the explicit `key_skills` list, never free text. Symbol-heavy names (`C++`, `C#`) have their own boundary rules.
 
 ## Quick start
@@ -111,12 +113,15 @@ Then open:
 
 ### Run against live data
 
+The hh API answers 403 without an application token, so live mode needs an app registered at https://dev.hh.ru. Put these into `.env`:
+
 ```bash
-# put your contact into HH_USER_AGENT in .env (hh requires an identifying User-Agent)
-make run
+HH_APP_TOKEN=...            # application token issued by hh
+HH_USER_AGENT=kz-jobs-pipeline/1.0 (you@example.com)   # hh requires an identifying User-Agent
+HH_PERIOD_DAYS=30           # first load: 30 days back; daily runs need only 1-2
 ```
 
-The Airflow DAG `kz_jobs_daily` runs the same steps every day at 03:00 UTC (08:00 in Almaty). Without an approved application token the hh API answers 403, so live mode needs `HH_APP_TOKEN` (register an app at https://dev.hh.ru). The offline demo works without it.
+Then `make run`. The Airflow DAG `kz_jobs_daily` runs the same steps every day at 03:00 UTC (08:00 in Almaty). The offline demo works without any token.
 
 ### Without Docker
 
@@ -127,6 +132,45 @@ export DATABASE_URL=postgresql://user:pass@localhost:5432/warehouse
 kzjobs demo
 uvicorn kzjobs.api.main:app --reload
 ```
+
+## Example results (live data)
+
+A snapshot loaded on 2026-11-25 from the hh API: Kazakhstan, 9 search queries, vacancies published in the last 30 days, IT roles only.
+
+| Metric | Value |
+|---|---|
+| Vacancies loaded | 531 |
+| Rejected by validation | 0 |
+| With a stated salary | 26.4% |
+| With at least one recognized skill | 83.2% |
+
+Share of vacancies mentioning a skill, week of 2026-11-16 (140 vacancies):
+
+| Skill | Share |
+|---|---|
+| SQL | 48.6% |
+| Python | 38.6% |
+| Docker | 27.9% |
+| CI/CD | 27.1% |
+| REST API | 25.7% |
+| Git | 24.3% |
+| PostgreSQL | 23.6% |
+| Kubernetes | 17.9% |
+| Linux | 17.1% |
+| Java | 17.1% |
+
+Monthly salary in KZT (midpoint of the range), roles with at least 5 stated salaries:
+
+| Role | Vacancies | P25 | Median | P75 |
+|---|---|---|---|---|
+| Дата-сайентист | 8 | 1,187,500 | 1,400,000 | 1,563,769 |
+| BI-аналитик, аналитик данных | 7 | 500,000 | 550,000 | 750,000 |
+| Программист, разработчик | 39 | 300,000 | 500,000 | 1,000,000 |
+| Тестировщик | 8 | 375,000 | 500,000 | 550,000 |
+| Аналитик | 12 | 356,250 | 451,000 | 525,000 |
+| Системный администратор | 8 | 367,500 | 375,000 | 412,500 |
+
+Read these as a snapshot, not a trend. Only active postings are returned, so earlier weeks are undercounted, and the weekly series becomes meaningful as the daily DAG accumulates history. Samples per role are small, hh files data engineers mostly under the data scientist role, and `Python` and `Java` shares are partly shaped by the search queries.
 
 ## Example results (demo data)
 
@@ -273,4 +317,4 @@ Integration tests apply the same migration files Flyway uses and run on a real P
 - Skill extraction is dictionary based. Embeddings or an LLM pass could catch skills outside the dictionary.
 - Marts are materialized views refreshed daily. dbt models would add lineage docs and tests on top.
 - Airflow runs as a single local container in Compose. Production would use separate scheduler and webserver services and secrets management.
-- The repository ships synthetic sample data only. Live results depend on hh API access conditions at the time of the run.
+- The offline demo uses synthetic data. Live results depend on hh API access conditions and on how many postings are active at the time of the run.

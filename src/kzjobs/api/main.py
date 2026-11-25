@@ -154,10 +154,16 @@ def skill_trends(
 
 
 @app.get("/salaries/summary", tags=["analytics"])
-def salary_summary(conn: Conn) -> list[dict[str, Any]]:
-    """Salary quartiles (KZT, monthly midpoint) per professional role."""
+def salary_summary(
+    conn: Conn, min_vacancies: Annotated[int, Query(ge=1)] = 5
+) -> list[dict[str, Any]]:
+    """Salary quartiles (KZT, monthly midpoint) per role; roles with too few salaries are hidden."""
     return plain(
-        conn.execute("SELECT * FROM mart.salary_by_role ORDER BY median_kzt DESC").fetchall()
+        conn.execute(
+            """SELECT * FROM mart.salary_by_role
+               WHERE vacancies_with_salary >= %s ORDER BY median_kzt DESC""",
+            (min_vacancies,),
+        ).fetchall()
     )
 
 

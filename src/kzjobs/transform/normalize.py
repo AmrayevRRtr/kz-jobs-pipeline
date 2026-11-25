@@ -85,7 +85,9 @@ def normalize_vacancy(
     payload: dict, matcher: SkillMatcher, rates: dict[str, Decimal]
 ) -> dict[str, Any]:
     """Flatten one payload. Never raises on missing data: the validator decides what is fatal."""
-    salary = payload.get("salary") or {}
+    salary = payload.get("salary_range") or payload.get("salary") or {}
+    if (salary.get("mode") or {}).get("id", "MONTH") != "MONTH":
+        salary = {}
     currency = salary.get("currency")
     currency = CURRENCY_ALIASES.get(currency, currency) if currency else None
     sal_from, sal_to = _decimal(salary.get("from")), _decimal(salary.get("to"))

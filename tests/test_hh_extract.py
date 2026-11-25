@@ -1,7 +1,9 @@
+import dataclasses
+
 import httpx
 
 from kzjobs.config import Settings
-from kzjobs.extract.hh import HHClient
+from kzjobs.extract.hh import HHClient, load_roles
 
 SETTINGS = Settings(
     hh_queries=("data engineer",), hh_request_delay=0, hh_user_agent="tests/1.0 (t@example.com)"
@@ -54,3 +56,30 @@ def test_retries_on_throttling_with_backoff():
     )
     assert client.fetch()
     assert 2 in sleeps
+
+
+def test_search_by_title_and_non_it_roles_are_dropped():
+    calls: list[httpx.Request] = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        calls.append(request)
+        if request.url.path == "/vacancies":
+            items = [
+                {"id": "1", "professional_roles": [{"name": "Дата-инженер"}]},
+                {"id": "2", "professional_roles": [{"name": "Учитель, преподаватель, педагог"}]},
+                {"id": "3"},
+            ]
+            return httpx.Response(200, json={"items": items, "pages": 1, "page": 0})
+        vid = request.url.path.rsplit("/", 1)[1]
+        return httpx.Response(200, json={"id": vid})
+
+    settings = dataclasses.replace(SETTINGS, hh_search_field="name")
+    client = HHClient(settings, transport=httpx.MockTransport(handler), sleep=lambda _s: None)
+    assert {p["id"] for p in client.fetch()} == {"1", "3"}
+    assert calls[0].url.params["search_field"] == "name"
+
+
+def test_roles_file_keeps_names_with_commas():
+    roles = load_roles(Settings().roles_csv)
+    assert "программист, разработчик" in roles
+    assert "bi-аналитик, аналитик данных" in roles

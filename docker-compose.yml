@@ -4,8 +4,10 @@ x-warehouse-env: &warehouse-env
   DATABASE_URL: postgresql://${POSTGRES_USER:-warehouse}:${POSTGRES_PASSWORD:-warehouse}@postgres:5432/${POSTGRES_DB:-warehouse}
   HH_USER_AGENT: ${HH_USER_AGENT:-kz-jobs-pipeline/0.1 (set-your-email@example.com)}
   HH_APP_TOKEN: ${HH_APP_TOKEN:-}
-  HH_QUERIES: ${HH_QUERIES:-data engineer;дата инженер;data scientist;python developer;java developer;devops}
+  HH_QUERIES: ${HH_QUERIES:-data engineer;дата инженер;инженер данных;data scientist;machine learning;аналитик данных;python;java;devops}
+  HH_PERIOD_DAYS: ${HH_PERIOD_DAYS:-1}
   HH_MAX_PAGES: ${HH_MAX_PAGES:-5}
+  HH_SEARCH_FIELD: ${HH_SEARCH_FIELD:-}
   REJECT_THRESHOLD_PCT: ${REJECT_THRESHOLD_PCT:-10}
 
 services:
