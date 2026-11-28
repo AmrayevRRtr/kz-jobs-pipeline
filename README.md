@@ -174,6 +174,37 @@ Read these as a snapshot, not a trend. Only active postings are returned, so ear
 
 The second run came from the Airflow DAG with a 2-day window: 114 records extracted, 0 new versions, 114 unchanged. Re-running over data that has not changed writes nothing, so history grows only when a vacancy actually changes. Daily runs show a lower skills coverage (60.5%) because the full page with `key_skills` is fetched only for vacancies not seen before, while known ones keep the skills already stored.
 
+After five daily runs (2026-11-25 to 2026-11-28) the warehouse holds 581 current vacancies in 583 versions, with 6, 25 and 19 new vacancies on the three later days. Two vacancies have changed so far. This is the live history of one of them, `GET /vacancies/139721824/history` (shortened): the salary was raised and its basis switched from net to gross, and the change log records both fields.
+
+```json
+{
+  "vacancy_id": 139721824,
+  "versions": [
+    {
+      "version_id": 134, "run_id": 1, "is_current": false,
+      "valid_from": "2026-11-25T11:06:16Z", "valid_to": "2026-11-27T03:02:55Z",
+      "role_name": "Руководитель проектов", "salary_from": 400000,
+      "salary_currency": "KZT", "salary_gross": false, "salary_mid_kzt": 400000
+    },
+    {
+      "version_id": 548, "run_id": 4, "is_current": true,
+      "valid_from": "2026-11-27T03:02:55Z", "valid_to": null,
+      "role_name": "Руководитель проектов", "salary_from": 600000,
+      "salary_currency": "KZT", "salary_gross": true, "salary_mid_kzt": 600000
+    }
+  ],
+  "changes": [
+    {
+      "at": "2026-11-27T03:02:55Z", "run_id": 4,
+      "changed_fields": {
+        "salary_from": { "from": 400000, "to": 600000 },
+        "salary_gross": { "from": false, "to": true }
+      }
+    }
+  ]
+}
+```
+
 ## Example results (demo data)
 
 Pipeline report for the two demo runs (stored in `ops.pipeline_run.stats`, exposed at `GET /quality/runs`):
@@ -316,6 +347,7 @@ Integration tests apply the same migration files Flyway uses and run on a real P
 
 - Vacancies that disappear from search results are not closed automatically. A "last seen" check with a grace period would detect closed postings.
 - Salary is compared as gross or net as published (`salary_gross` is stored), not normalized to a single basis.
+- `employment` and `schedule` are stored empty for live data: hh replaced them with `employment_form`, `work_format` and `work_schedule_by_days`. Both fields are part of the version hash, so switching to the new names needs a hash migration or a full reload, otherwise every vacancy would get a spurious new version. No mart uses them.
 - Skill extraction is dictionary based. Embeddings or an LLM pass could catch skills outside the dictionary.
 - Marts are materialized views refreshed daily. dbt models would add lineage docs and tests on top.
 - Airflow runs as a single local container in Compose. Production would use separate scheduler and webserver services and secrets management.
